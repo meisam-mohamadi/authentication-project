@@ -1,0 +1,42 @@
+.mainContainer{
+  width: 500px;
+  margin: auto;
+}
+
+
+.dataContainer {
+  margin: 1em 0;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+ label, input {
+  display: block;
+}
+
+ label {
+  font-weight: bolder;
+  flex: 1;
+}
+
+ input {
+  flex: 3;
+  padding: 1em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  direction: ltr;
+}
+
+
+.submit {
+  text-align: left;
+}
+
+
+  .dataContainer {
+    align-items: center;
+    flex-direction: row;
+  }
+
+

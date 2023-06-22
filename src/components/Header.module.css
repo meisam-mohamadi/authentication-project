@@ -1,0 +1,11 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #118878;
+  padding: 0 4em;
+}
+
+h1 {
+  color: white;
+}
